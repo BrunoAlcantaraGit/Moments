@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #f7c8c8;
+
+}
+
+.links, .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img{
+    width: 40px;
+    margin-right: 0.6em;
+}
+
+.brand h2{
+    transition: 0.4s;
+}
+h2:hover{
+    color: #dec129;
+}
+
+.links li{
+    margin-right: 1em;
+    list-style: none;
+}
+.links a{
+    padding: 0.1em 0.3em;
+}
+#add a{
+    color: #dec129;
+}
+
+#add a:hover{
+    background-color: rgb(14, 8, 1);
+}
